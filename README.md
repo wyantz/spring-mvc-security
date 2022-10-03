@@ -14,4 +14,4 @@ Setelah tabel-tabel terbuat, masukkan data sebagai berikut untuk mencoba:
 	insert into user_role (usrnm,rlid) values ('awy','ROLE_USER')
 	insert into user_role (usrnm,rlid) values ('budi','ROLE_ADMIN')
 
-Format password BCRYPT dapat dibuat dengan bantuan situs online bcrypt.
+Format password BCRYPT dapat dibuat dengan bantuan situs online bcrypt. Pada contoh yang dibuat username awy dengan password awy, dan budi dengan password budi
