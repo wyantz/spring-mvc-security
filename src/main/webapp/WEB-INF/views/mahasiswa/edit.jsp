@@ -5,8 +5,6 @@
 %>
 <html>
 <body>
-	<p>Welcome to Spring MVC Tutorial</p>
-	
 	<form action="${contextName}/mhs" method="post">
 	<input type="hidden" name="mode" value="edit">
 	<input type="hidden" name="id" value="${mahasiswa.id}">

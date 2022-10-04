@@ -4,9 +4,10 @@
     request.setAttribute("contextName",request.getContextPath());
 %>
 <html>
+<head>
+<title>Login Page</title>
+</head>
 <body>
-	<p>Welcome to Spring MVC Tutorial</p>
-	
 <header class="panel-heading text-center"> Sign in </header>
 <c:if test="${param.error != null}">
 							<div class="alert alert-danger">
