@@ -8,11 +8,12 @@
 <html>
 <head>
 	<title>Prodemy - <decorator:title/></title>
+	<style type="text/css" src="test.css"></style>
 </head>
 <body>
 	<p>Welcome to Spring MVC</p>
-	<div>
+	<p><img src="${contextName}/resources/img/logo-prodemy.png"></p>
+	<div>Nav</div>
 		<decorator:body/>
-	</div>
 </body>
 </html>

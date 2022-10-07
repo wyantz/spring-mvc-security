@@ -61,6 +61,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers(
 						"/",
 						"/accessdenied",
+						"/resources/**",
 						"/assets/**").permitAll()
 				.anyRequest().authenticated()
 				.and()
